@@ -7,10 +7,11 @@ public class A {
         print("Hey");
         A obj = new A();
 
-        String res = method(obj);
-        System.out.println(res);
+        String result = method(obj);
+        System.out.println(result);
 
-        System.out.println(method(obj));
+
+
     }
 
     private static void print(String s) {
@@ -22,6 +23,7 @@ public class A {
 
     public static String method(A a)// a = obj
     {
+        System.out.println("alksjd");
         System.out.println("Printing object of A : " +a);
         return "hey";
     }
