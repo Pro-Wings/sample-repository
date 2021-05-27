@@ -20,9 +20,11 @@ public class A {
 
     }
 
-    public static String method(A a)// a = obj
+    public static String method(A a, String s)// a = obj
     {
         System.out.println("Printing object of A : " +a);
-        return "hey";
+        String hs = String.valueOf(a.hashCode());
+
+        return hs;
     }
 }
