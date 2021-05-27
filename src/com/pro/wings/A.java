@@ -21,12 +21,13 @@ public class A {
 
     }
 
-    public static String method(A a, String s)// a = obj
+    public static String method(A a, String s, int i)// a = obj
     {
         System.out.println("alksjd");
         System.out.println("Printing object of A : " +a);
         String hs = String.valueOf(a.hashCode());
-
+        System.out.println("Printing object of A : " +a);
+        System.out.println("Printing object of A : " +a);
         return hs;
     }
 }
