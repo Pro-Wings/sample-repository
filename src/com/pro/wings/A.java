@@ -20,6 +20,13 @@ public class A {
         System.out.println(s);
 
     }
+    
+        private static void print1(String s) {
+
+        s = s.concat(" Java Developer");
+        System.out.println(s);
+
+    }
 
     public static String method(A a, String s, int i)// a = obj
     {
