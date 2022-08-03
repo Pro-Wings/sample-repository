@@ -1,4 +1,6 @@
-Class B
+package com.pro.wings;
+
+class B
 {
 
 public void Test()
