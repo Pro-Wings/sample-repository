@@ -7,7 +7,6 @@ public class A {
         print("Hey");
         A obj = new A();
 
-//        String result = method(obj);
         System.out.println("");
 
 
